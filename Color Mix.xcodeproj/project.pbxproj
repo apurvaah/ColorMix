@@ -14,6 +14,8 @@
 		683B66482AB0100500E8F36D /* Color_MixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683B66472AB0100500E8F36D /* Color_MixTests.swift */; };
 		683B66522AB0100500E8F36D /* Color_MixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683B66512AB0100500E8F36D /* Color_MixUITests.swift */; };
 		683B66542AB0100500E8F36D /* Color_MixUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683B66532AB0100500E8F36D /* Color_MixUITestsLaunchTests.swift */; };
+		683B66622AB0D5AF00E8F36D /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683B66612AB0D5AF00E8F36D /* HomePageView.swift */; };
+		683B66642AB24BBC00E8F36D /* ColorPointPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683B66632AB24BBC00E8F36D /* ColorPointPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		683B664D2AB0100500E8F36D /* Color MixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Color MixUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		683B66512AB0100500E8F36D /* Color_MixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_MixUITests.swift; sourceTree = "<group>"; };
 		683B66532AB0100500E8F36D /* Color_MixUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_MixUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		683B66612AB0D5AF00E8F36D /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		683B66632AB24BBC00E8F36D /* ColorPointPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPointPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 		683B66352AB0100200E8F36D /* Color Mix */ = {
 			isa = PBXGroup;
 			children = (
+				683B66602AB0D59000E8F36D /* Screens */,
 				683B66362AB0100200E8F36D /* Color_MixApp.swift */,
 				683B66382AB0100200E8F36D /* ContentView.swift */,
 				683B663A2AB0100400E8F36D /* Assets.xcassets */,
@@ -125,6 +130,15 @@
 				683B66532AB0100500E8F36D /* Color_MixUITestsLaunchTests.swift */,
 			);
 			path = "Color MixUITests";
+			sourceTree = "<group>";
+		};
+		683B66602AB0D59000E8F36D /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				683B66612AB0D5AF00E8F36D /* HomePageView.swift */,
+				683B66632AB24BBC00E8F36D /* ColorPointPickerView.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +272,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				683B66392AB0100200E8F36D /* ContentView.swift in Sources */,
+				683B66622AB0D5AF00E8F36D /* HomePageView.swift in Sources */,
 				683B66372AB0100200E8F36D /* Color_MixApp.swift in Sources */,
+				683B66642AB24BBC00E8F36D /* ColorPointPickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

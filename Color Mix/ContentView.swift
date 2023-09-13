@@ -8,14 +8,46 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var isHomePageViewPresented = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ZStack {
+            LinearGradient(
+                gradient: Gradient(colors: [Color.blue, Color.green]),
+                startPoint: .topLeading,
+                endPoint: .bottomTrailing
+            )
+            .edgesIgnoringSafeArea(.all)
+            
+            VStack {
+                Image("Paintbrush")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 100, height: 100)
+                
+                Text("Color Mix")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                    .foregroundColor(.white)
+                
+                Text("Create Perfect Color Mix")
+                    .font(.title)
+                    .foregroundColor(.white)
+                
+                Button("Start") {
+                        isHomePageViewPresented = true
+                    }
+                    .font(.headline)
+                    .padding()
+                    .background(Color.white)
+                    .foregroundColor(.blue)
+                    .cornerRadius(10)
+            }
+            .navigationBarHidden(true)
         }
-        .padding()
+        .sheet(isPresented: $isHomePageViewPresented) {
+            HomePageView()
+        }
     }
 }
 
