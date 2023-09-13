@@ -69,9 +69,13 @@ struct HomePageView: View {
                 }
                 .font(.headline)
                 .padding()
-                .background(Color.white)
-                .foregroundColor(.blue)
+                .background(
+                    RoundedRectangle(cornerRadius: 10)
+                        .fill(selectedImage == nil ? Color.gray : Color.blue)
+                )
+                .foregroundColor(.white)
                 .cornerRadius(10)
+                .disabled(selectedImage == nil)
             }
             .navigationBarTitle("Home Page", displayMode: .inline)
             .navigationBarBackButtonHidden(true)
