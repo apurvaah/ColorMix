@@ -16,6 +16,7 @@
 		683B66542AB0100500E8F36D /* Color_MixUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683B66532AB0100500E8F36D /* Color_MixUITestsLaunchTests.swift */; };
 		683B66622AB0D5AF00E8F36D /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683B66612AB0D5AF00E8F36D /* HomePageView.swift */; };
 		683B66642AB24BBC00E8F36D /* ColorPointPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683B66632AB24BBC00E8F36D /* ColorPointPickerView.swift */; };
+		683B66662AB288F500E8F36D /* ConfirmColorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683B66652AB288F500E8F36D /* ConfirmColorsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		683B66532AB0100500E8F36D /* Color_MixUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_MixUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		683B66612AB0D5AF00E8F36D /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
 		683B66632AB24BBC00E8F36D /* ColorPointPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPointPickerView.swift; sourceTree = "<group>"; };
+		683B66652AB288F500E8F36D /* ConfirmColorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmColorsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 			children = (
 				683B66612AB0D5AF00E8F36D /* HomePageView.swift */,
 				683B66632AB24BBC00E8F36D /* ColorPointPickerView.swift */,
+				683B66652AB288F500E8F36D /* ConfirmColorsView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				683B66622AB0D5AF00E8F36D /* HomePageView.swift in Sources */,
 				683B66372AB0100200E8F36D /* Color_MixApp.swift in Sources */,
 				683B66642AB24BBC00E8F36D /* ColorPointPickerView.swift in Sources */,
+				683B66662AB288F500E8F36D /* ConfirmColorsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
